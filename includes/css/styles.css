@@ -1,0 +1,407 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+/*GLOBAL*/
+body {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+/*HEADER*/
+.navbar {
+    min-height: 100px;
+    margin-bottom: 0;
+    background-color: #f6f9f9;
+    border: none;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+img {
+    vertical-align: middle;
+}
+.navbar-brand {
+    height: auto;
+    padding: 0 15px;
+    margin-top: 30px;
+}
+.navbar-nav {
+    margin-top: 25px;
+}
+.navbar-nav li a {
+    color: #2e3851;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #777;
+    margin-top: 25px;
+}
+/*COVER*/
+#cover {
+    min-height: 800px;
+    background: url('../../images/cover.jpg') center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    text-align: center;
+}
+#cover h1 {
+    font-size: 120px;
+    font-family: 'Lato';
+    color: #ffffff;
+    margin-top: 193px;
+    font-weight: bold;
+    padding: 0px 95px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid #15a4fa;
+    display: inline-block;
+    text-transform: uppercase;
+}
+#cover p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-bottom: 60px;
+}
+#cover .btn-call-to-action:hover {
+    background-color: #15a4fa;
+}
+#cover .btn-call-to-action {
+    border-radius: 4px;
+    border-color: #15a4fa;
+    background: none;
+    padding: 15px 35px;
+    color: #fff;
+    font-size: 18px;
+}
+#cover .bottom-arrow {
+    margin-top: 158px;
+    display: block;
+}
+.cover .bottom-arrow a {
+    color: #fff;
+    font-size: 35px;
+    display: inline-block;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 50px;
+    color: white;
+}
+/*THEME DESCRIPTION*/
+.theme-description-area h2, .showcase-area h2 {
+    color: #2d3950;
+    font-size: 40px;
+    margin: 0;
+}
+.theme-description-area p {
+    text-align: justify;
+    line-height: 32px;
+    color: #999999;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.theme-description-area {
+    padding-top: 74px;
+    padding-bottom: 86px;
+    background-color: #f6f9f9;
+    text-align: center;
+}
+/*WIDGETS AREA*/
+#widgets-area {
+    padding-top: 65px;
+    padding-bottom: 53px;
+    text-align: center;
+}
+.widget-img {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background: url('http://localhost/joomla/templates/strict/images/widget-bg.jpg');
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+#widgets-area h3 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: #2d3950;
+    font-size: 22px;
+}
+#widgets-area p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 22px;
+}
+.widget-img i {
+    font-size: 70px;
+    line-height: 100px;
+}
+.widget-img i.fa.fa-paper-plane {
+    font-size: 40px;
+}
+.widget-img i.fa.fa-bullhorn {
+    font-size: 42px;
+}
+/*FOOTER*/
+footer {
+    height: 90px;
+}
+footer .smi {
+    margin-bottom: 0;
+}
+.smi li {
+    padding-right: 0;
+    padding-left: 1px;
+}
+footer p {
+    color: #999999;
+    font-size: 15px;
+    line-height: 86px;
+    margin-bottom: 0;
+}
+.smi li a {
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    display: inline-block;
+    background: #15a4fa;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0;
+    line-height: 44px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #testimonials #myCarousel{
+      height: 609px;
+   }
+   .carousel-caption {
+       font-size: 24px;
+       color: #2d3254;
+   }
+   .carousel-caption h4 {
+       font-size: 32px;
+       color: #2d3254;
+   }
+   #myCarousel .item {height: 600px;}
+
+#slide1 {
+   background: url('../../images/c1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/c2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/c3.jpg') top center no-repeat;
+}
+/*SHOWCASE AREA*/
+#showcase-area {
+    background-color: #f6f9f9;
+    padding-top: 73px;
+    padding-bottom: 86px;
+    text-align: center;
+}
+#showcase-area h2 p{
+  text-align: center;
+}
+#showcase-area h2 {
+    color: #2d3950;
+    font-size: 40px;
+    margin: 0;
+}
+#showcase-area p, .contact-us-area p {
+    text-align: center;
+    margin-top: 16px;
+    line-height: 23px;
+    font-size: 15px;
+    margin-bottom: 77px;
+    color: #999999;
+}
+#showcase-area figure {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+#showcase-area figcaption {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(21,164,250,.7);
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+/*CONTACT US*/
+#contact-us {
+    background: url('http://localhost/joomla/templates/strict/images/cover-footer.jpg') no-repeat center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 67px 0;
+    text-align: center;
+}
+#contact-us h2 {
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+}
+#contact-us p {
+    margin-bottom: 47px;
+}
+.contact-us-form {
+    max-width: 555px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.contact-us-form .form-control {
+    background: none;
+    border: 1px solid #999999;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 3px;
+    min-height: 62px;
+    padding: 20px;
+}
+#contact-us p {
+    text-align: center;
+    margin-top: 16px;
+    line-height: 23px;
+    font-size: 15px;
+    margin-bottom: 77px;
+    color: #999999;
+}
+.checkbox {
+    display: inline-block;
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 12px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.checkbox label {
+    vertical-align: top;
+}
+.submit-btn {
+    background: none;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    float: right;
+    width: 142px;
+    height: 47px;
+    font-size: 18px;
+    color: white;
+}
+.submit-btn:hover {
+    border: none;
+    background: #15a4fa !important;
+    color: #fff !important;
+}
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+ 
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 728px) {
+    #testimonials #myCarousel{
+      height: 310px;
+
+   }
+   #myCarousel .item {height: 310px;}
+   
+#slide1 {
+   background: url('../../images/c1s.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/c2s.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/c3s.jpg') top center no-repeat;
+}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #testimonials #myCarousel{
+      height: 478px;
+
+   }
+   #testimonials .carousel-inner{
+    height: 478px;
+   }
+   #myCarousel .item {
+
+   }
+   
+#slide1 {
+   background: url('../../images/c1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/c2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/c3.jpg') top center no-repeat;
+}
+	
+}
