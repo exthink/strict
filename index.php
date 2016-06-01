@@ -26,7 +26,7 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/bootstr
 </head>
 
 <body>
-    <section id="header">
+    <section class="header">
         <div class="navbar navbar-default" role="navigation">
             <div class="container">
                 <div class="navbar-header icon">
@@ -43,21 +43,23 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/bootstr
             </div>
         </div>
     </section>
-    <section id="cover">
+    <jdoc:include type="modules" name="position-4" style="none" />
+    <section>
         <div class="container">
             <jdoc:include type="modules" name="position-2" style="none" />
+            <jdoc:include type="message" />
+            <jdoc:include type="component" />
+            <jdoc:include type="modules" name="position-5" style="none" />
         </div>
     </section>
-    <section id="theme-description" class="theme-description-area">
-        <div class="container">
-            <jdoc:include type="modules" name="position-4" style="none" />
-        </div>
-    </section>
-    <jdoc:include type="modules" name="position-5" style="none" />
-    <jdoc:include type="modules" name="position-6" style="none" />
-    <jdoc:include type="modules" name="position-10" style="none" />
+            <!-- <jdoc:include type="modules" name="position-4" style="none" /> -->
     
-    <footer id="footer">
+    
+    <!-- <jdoc:include type="modules" name="position-6" style="none" /> -->
+    
+    <!-- <jdoc:include type="modules" name="position-10" style="none" /> -->
+    
+    <footer class="footer">
         <div class="container">
             <p class="pull-left">Copyright 2016, STRICT</p>
             <ul class="smi pull-right list-inline list-unstyled">
