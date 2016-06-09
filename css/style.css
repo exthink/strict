@@ -2,7 +2,7 @@
 
 .team-bg{
     padding-top: 50px; 
-    
+
 }
 .team-bg .sprocket-grids-b-image{
     height: 330px;
@@ -303,8 +303,12 @@ li.current.active a{
     font-size: 42px;
 }
 
-
-
+#widgets-area1 .widget-img{
+    transition: 2.5s;
+}
+#widgets-area1 .widget-img:hover{
+    transform:rotateY(360deg);
+}
 #widgets-area1 {
     padding-top: 65px;
     padding-bottom: 53px;
