@@ -1,30 +1,141 @@
-/*
-
-My Custom CSS
-=============
-
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
-
-*/
 /*GLOBAL*/
+
+.team-bg{
+    padding-top: 50px; 
+    
+}
+.team-bg .sprocket-grids-b-image{
+    height: 330px;
+}
+.creativecontactform_wrapper .powered_by{
+    opacity: 0;s
+}
+html,body {
+  /* Extra Styles */
+  background: #fff;
+  color: #425363;
+  font-family: avenir, 'segoe ui', sans-serif;
+}
+
+@keyframes move {
+    0% { 
+        background-position: 0 60%, 0 50%;
+    }
+    100% { 
+      background-position: 0 60%, 100% 50%;
+    }
+}
+
+.is-sticky #mystickydiv {
+ 
+}
+
+.is-sticky #mystickydiv{
+    opacity: .8;
+}
+.is-sticky #mystickydiv:hover{
+    opacity: 1;
+}
+.sprocket-mosaic-g-text{
+    width:95%;
+    margin-left: 5px;
+}
+h2.sprocket-mosaic-g-title{
+    padding-top: 25px;
+}
+.line{
+    width: 950px;
+    height: 3px;
+    background: #15A4FA;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+.is-sticky #mystickydiv .navbar-brand{
+    margin-top: 0;
+}
+.is-sticky #mystickydiv .header .menu{
+    margin-top: 5.5px;
+}
+.is-sticky #mystickydiv .navbar-default{
+    background-color: #636B78;
+    height: 20px;
+}
+.is-sticky #mystickydiv .navbar{
+    background-color: red;
+    min-height: 65px;
+}
+#mystickydiv .header .navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
+.sprocket-mosaic-g-item{
+    padding: 20px;
+}
+#jform_contact_message{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#jform_contact_name ,#jform_contact_email ,#jform_contact_emailmsg  {
+    display: block;
+    width: 350px;
+    height: 38px;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     color: #fff;
+    background:#393A46;
 }
 a {
     color: #428bca;
+    /*color: #fff;*/
     text-decoration: none;
 }
+
 /*HEADER*/
+li.current.active a{
+    color: #2D3950;
+    border-bottom: 1px solid #15A4FA;
+}
+.header .menu li a:hover{
+    background:none;
+    color: #2D3950;
+    border-bottom: 1px solid #15A4FA;
+}
+.form-horizontal .control-label {
+    text-align: left;
+}
+/*.header .menu .current a:active{
+    color: #fff;
+}*/
+/*.menu a:active{
+    color: #fff;
+}*/
+.menu li{
+    display: inline;
+    float:left;
+    font-family: sans-serif;
+}
 .header .menu{
     color: #2e3851;
     font-size: 16px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     text-transform: uppercase;
    /* color: #777;*/
-    margin-top: 16px;
+    margin-top: 13px;
+}
+.header .menu li{
+    display: inline;
 }
 .header .navbar {
     min-height: 100px;
@@ -42,19 +153,19 @@ a {
 .navbar-brand {
     height: auto;
     padding: 0 15px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .navbar-nav {
     margin-top: 25px;
 }
-.navbar-nav li a {
+/*.navbar-nav li a {
     color: #2e3851;
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
     color: #777;
      margin-top: 35px;
-}
+}*/
 /*COVER*/
 #cover {
     min-height: 800px;
@@ -112,6 +223,26 @@ a {
     color: white;
 }
 /*THEME DESCRIPTION*/
+.theme-description-area1 h2, .showcase-area h2 {
+    color: #2d3950;
+    font-size: 40px;
+    margin: 0;
+}
+.theme-description-area1 p {
+    text-align: justify;
+    line-height: 32px;
+    color: #999999;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.theme-description-area1 {
+    padding-top: 74px;
+    padding-bottom: 86px;
+    background-color: #f6f9f9;
+    text-align: center;
+}
+
 .theme-description-area h2, .showcase-area h2 {
     color: #2d3950;
     font-size: 40px;
@@ -136,6 +267,8 @@ a {
     padding-top: 65px;
     padding-bottom: 53px;
     text-align: center;
+    /*background-color: #2B364A;*/
+
 }
 .widget-img {
     height: 100px;
@@ -144,7 +277,7 @@ a {
     background: url('http://localhost/joomla/templates/strict/images/widget-bg.jpg');
     margin: 0 auto;
     margin-bottom: 30px;
-    cursor: pointer;
+    cursor: default;
 }
 #widgets-area h3 {
     margin-top: 0;
@@ -169,9 +302,36 @@ a {
 .widget-img div.fa.fa-bullhorn {
     font-size: 42px;
 }
+
+
+
+#widgets-area1 {
+    padding-top: 65px;
+    padding-bottom: 53px;
+    text-align: center;
+
+    background: url('http://localhost/joomla/templates/strict/images/notebook-hero-workspace-minimal.jpg') fixed;
+    background-size: cover;
+}
+
+#widgets-area1 h3 {
+    margin-top: 0;
+    margin-bottom: 14px;
+    color: #15A4FA;
+    font-size: 22px;
+}
+#widgets-area1 p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 22px;
+}
 /*FOOTER*/
 footer {
+    bottom: 0;
     height: 90px;
+    left: 0;
+
+     width: 100%;
 }
 footer .smi {
     margin-bottom: 0;
@@ -205,6 +365,98 @@ footer p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.footer{
+    background-color:#F8F8F8;
+}
+.footer .smi li i:hover{
+    color: black;
+}
+.smi li a:hover{
+    background:white;
+    color:black;
+}
+
+/*WHAT WE DO*/
+.what-we-do h2{
+    padding-bottom: 50px;
+    text-transform: uppercase;
+}
+.what-we-do p {
+    font-size: 15px;
+    color: #999999;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+.what-we-do{
+    padding-top: 65px;
+    padding-bottom: 53px;
+    text-align: center;
+}
+.what-we-do-img {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid;
+    /*background: url('http://localhost/joomla/templates/strict/images/widget-bg.jpg');*/
+    margin: 0 auto;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.what-we-do-img:hover {
+    color: white;
+    background: #15A4FA;
+    border: 1px solid white;
+    margin:none;
+    cursor: default;
+}
+.what-we-do-img div:hover {
+    color: white;
+    cursor: default;
+    margin: none;
+}
+.what-we-do-img div {
+    font-size: 40px;
+    line-height: 100px;
+    /*margin-left: 20px;*/
+    color: black;
+}
+.what-we-do-img div.fa.fa-windows{
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.what-we-do-img div.fa.fa-gears {
+    font-size: 40px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+.what-we-do-img div.fa.fa-heartbeat {
+    height: 100px;
+    width: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+.what-we-do-img div.fa.fa-joomla {
+    height: 100px;
+    width: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+.what-we-do-img div.fa.fa-ambulance {
+    height: 100px;
+    width: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+.what-we-do-img div.fa.fa-folder {
+    height: 100px;
+    width: 100px;
+    font-size: 42px;
+    text-align: center;
+}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -244,6 +496,45 @@ footer p {
    background: url('../../images/c3.jpg') top center no-repeat;
 }
 /*SHOWCASE AREA*/
+
+#showcase-area1 {
+    /*background-color:#2B364A;*/
+    padding-top: 73px;
+    padding-bottom: 86px;
+    text-align: center;
+}
+#showcase-area1 h2 p{
+  text-align: center;
+}
+#showcase-area1 h2 {
+    color: #2D3950;
+    font-size: 40px;
+    margin: 0;
+}
+#showcase-area1 p, .contact-us-area p {
+    text-align: center;
+    margin-top: 16px;
+    line-height: 23px;
+    font-size: 15px;
+    margin-bottom: 50px;
+    color: #999999;
+}
+#showcase-area1 .submit-btn {
+    background: none;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    text-align: center;
+    width: 142px;
+    height: 47px;
+    font-size: 18px;
+    color: #2D3950;
+}
+#showcase-area1 .submit-btn:hover {
+    border: none;
+    background:  #15a4fa !important;
+    color: #fff !important;
+}
+
 #showcase-area {
     /*background-color: #f6f9f9;*/
     padding-top: 73px;
@@ -263,7 +554,7 @@ footer p {
     margin-top: 16px;
     line-height: 23px;
     font-size: 15px;
-    margin-bottom: 77px;
+    margin-bottom: 50px;
     color: #999999;
 }
 #showcase-area figure {
@@ -283,6 +574,20 @@ footer p {
     top: 0;
     left: 0;
     opacity: 0;
+}
+#showcase-area .submit-btn {
+    background: none;
+    border: 1px solid #2D3950;
+    display: inline-block;
+    text-align: center;
+    width: 142px;
+    height: 47px;
+    font-size: 18px;
+}
+#showcase-area .submit-btn:hover {
+    border: none;
+    background: #2D3950 !important;
+    color: #fff !important;
 }
 /*CONTACT US*/
 #contact-us {
@@ -352,9 +657,50 @@ footer p {
     background: #15a4fa !important;
     color: #fff !important;
 }
-/*FOOTER*/
-.footer{
-    background-color:#F8F8F8;
+
+/*CONTACT*/
+#contact {
+    background-color: #263645;
+    background-image: url('http://timteeling.com/dev/img/network.svg'), radial-gradient(200px 500px at center, #ff8300 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
+    background-size: 125%, 50% 100%;
+    background-position: 0 60%, 0 100%;
+    animation: move 5s linear infinite;
+    /* Extra Styles */
+    height: 300px;
+    /*box-shadow: inset 0 0 25px rgba(0,0,0,.5);*/
+    border: 2px solid #263645;
+    border-right: 0;
+    border-left: 0;
+    /*background: url('http://localhost/joomla/templates/strict/images/cover-footer.jpg') no-repeat center fixed;*/
+    /*background-size: cover;*/
+    min-height: 358px;
+    padding: 67px 0;
+    text-align: center;
+}
+#contact h2 {
+    font-size: 40px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 25px;
+}
+#contact p {
+    margin-top: 15px;
+    color: #fff;
+}
+#contact .submit-btn {
+    background: none;
+    border: 1px solid #15a4fa;
+    display: inline-block;
+    text-align: center;
+    width: 142px;
+    height: 47px;
+    font-size: 18px;
+    color: white;
+}
+.submit-btn:hover {
+    border: none;
+    background: #15a4fa !important;
+    color: #fff !important;
 }
 /* --------------------------------------
    Global Styles
@@ -368,11 +714,14 @@ footer p {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+    
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 728px) {
+    .form-horizontal .control-label {
+    text-align: left;
+}
     #testimonials #myCarousel{
       height: 310px;
 
@@ -390,11 +739,14 @@ footer p {
 #slide3 {
    background: url('../../images/c3s.jpg') top center no-repeat;
 }
-	
+    
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    .form-horizontal .control-label {
+    text-align: left;
+}
     #testimonials #myCarousel{
       height: 478px;
 
@@ -417,5 +769,5 @@ footer p {
 #slide3 {
    background: url('../../images/c3.jpg') top center no-repeat;
 }
-	
+    
 }
