@@ -1,15 +1,18 @@
-/*GLOBAL*/
-
-.team-bg{
+/*--------------*\
+      #GLOBAL
+\*--------------*/
+.team-bg {
     padding-top: 50px; 
-
 }
-.team-bg .sprocket-grids-b-image{
+
+.team-bg .sprocket-grids-b-image {
     height: 330px;
 }
+
 .creativecontactform_wrapper .powered_by{
     opacity: 0;s
 }
+
 html,body {
   /* Extra Styles */
   background: #fff;
@@ -30,20 +33,24 @@ html,body {
  
 }
 
-.is-sticky #mystickydiv{
+.is-sticky #mystickydiv {
     opacity: .8;
 }
-.is-sticky #mystickydiv:hover{
+
+.is-sticky #mystickydiv:hover {
     opacity: 1;
 }
-.sprocket-mosaic-g-text{
-    width:95%;
+
+.sprocket-mosaic-g-text {
+    width: 95%;
     margin-left: 5px;
 }
-h2.sprocket-mosaic-g-title{
+
+h2.sprocket-mosaic-g-title {
     padding-top: 25px;
 }
-.line{
+
+.line {
     width: 950px;
     height: 3px;
     background: #15A4FA;
@@ -51,17 +58,21 @@ h2.sprocket-mosaic-g-title{
     margin-top: 0px;
     margin-bottom: 75px;
 }
-.is-sticky #mystickydiv .navbar-brand{
+
+.is-sticky #mystickydiv .navbar-brand {
     margin-top: 0;
 }
-.is-sticky #mystickydiv .header .menu{
+
+.is-sticky #mystickydiv .header .menu {
     margin-top: 5.5px;
 }
-.is-sticky #mystickydiv .navbar-default{
+
+.is-sticky #mystickydiv .navbar-default {
     background-color: #636B78;
     height: 20px;
 }
-.is-sticky #mystickydiv .navbar{
+
+.is-sticky #mystickydiv .navbar {
     background-color: red;
     min-height: 65px;
 }
@@ -69,14 +80,17 @@ h2.sprocket-mosaic-g-title{
     background-color: #f8f8f8;
     border-color: #e7e7e7;
 }
-.sprocket-mosaic-g-item{
+
+.sprocket-mosaic-g-item {
     padding: 20px;
 }
-#jform_contact_message{
+
+#jform_contact_message {
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 #jform_contact_name ,#jform_contact_email ,#jform_contact_emailmsg  {
     display: block;
     width: 350px;
@@ -96,77 +110,84 @@ body {
     color: #fff;
     background:#393A46;
 }
+
 a {
     color: #428bca;
-    /*color: #fff;*/
     text-decoration: none;
 }
 
-/*HEADER*/
-li.current.active a{
+
+
+
+
+/*--------------*\
+      #HEADER
+\*--------------*/
+li.current.active a {
     color: #2D3950;
     border-bottom: 1px solid #15A4FA;
 }
-.header .menu li a:hover{
+
+.header .menu li a:hover {
     background:none;
     color: #2D3950;
     border-bottom: 1px solid #15A4FA;
 }
+
 .form-horizontal .control-label {
     text-align: left;
 }
-/*.header .menu .current a:active{
-    color: #fff;
-}*/
-/*.menu a:active{
-    color: #fff;
-}*/
-.menu li{
+
+.menu li {
     display: inline;
     float:left;
     font-family: sans-serif;
 }
-.header .menu{
+
+.header .menu {
     color: #2e3851;
     font-size: 16px;
-    /*font-weight: bold;*/
     text-transform: uppercase;
-   /* color: #777;*/
     margin-top: 13px;
 }
-.header .menu li{
+
+.header .menu li {
     display: inline;
 }
+
 .header .navbar {
     min-height: 100px;
     margin-bottom: 0;
     background-color: #f6f9f9;
     border: none;
 }
+
 .header .navbar-default {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
 }
+
 .header img {
     vertical-align: middle;
 }
+
 .navbar-brand {
     height: auto;
     padding: 0 15px;
     margin-top: 10px;
 }
+
 .navbar-nav {
     margin-top: 25px;
 }
-/*.navbar-nav li a {
-    color: #2e3851;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #777;
-     margin-top: 35px;
-}*/
-/*COVER*/
+
+
+
+
+
+/*--------------*\
+      #COVER
+\*--------------*/
 .cover {
     min-height: 800px;
     background: url('http://localhost/joomla/templates/strict/images/cover.jpg') center;
@@ -174,6 +195,7 @@ li.current.active a{
     -webkit-background-size: cover;
     text-align: center;
 }
+
 .cover h1 {
     font-size: 120px;
     font-family: 'Lato';
@@ -186,15 +208,18 @@ li.current.active a{
     display: inline-block;
     text-transform: uppercase;
 }
+
 .cover p {
     color: #fff;
     font-size: 20px;
     margin-top: 22px;
     margin-bottom: 60px;
 }
+
 .cover .btn-call-to-action:hover {
     background-color: #15a4fa;
 }
+
 .cover .btn-call-to-action {
     border-radius: 4px;
     border-color: #15a4fa;
@@ -203,15 +228,18 @@ li.current.active a{
     color: #fff;
     font-size: 18px;
 }
+
 .cover .bottom-arrow {
     margin-top: 158px;
     display: block;
 }
+
 .cover .bottom-arrow a {
     color: #fff;
     font-size: 35px;
     display: inline-block;
 }
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -222,12 +250,20 @@ li.current.active a{
     font-size: 50px;
     color: white;
 }
-/*THEME DESCRIPTION*/
+
+
+
+
+
+/*-----------------*\
+  #THEME DESCRIPTION
+\*-----------------*/
 .theme-description-area1 h2, .showcase-area h2 {
     color: #2d3950;
     font-size: 40px;
     margin: 0;
 }
+
 .theme-description-area1 p {
     text-align: justify;
     line-height: 32px;
@@ -236,6 +272,7 @@ li.current.active a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .theme-description-area1 {
     padding-top: 74px;
     padding-bottom: 86px;
@@ -248,6 +285,7 @@ li.current.active a{
     font-size: 40px;
     margin: 0;
 }
+
 .theme-description-area p {
     text-align: justify;
     line-height: 32px;
@@ -256,20 +294,26 @@ li.current.active a{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .theme-description-area {
     padding-top: 74px;
     padding-bottom: 86px;
-    /*background-color: #f6f9f9;*/
     text-align: center;
 }
-/*WIDGETS AREA*/
+
+
+
+
+
+/*-----------------*\
+    #WIDGETS AREA
+\*-----------------*/
 .widgets-area {
     padding-top: 65px;
     padding-bottom: 53px;
     text-align: center;
-    /*background-color: #2B364A;*/
-
 }
+
 .widget-img {
     height: 100px;
     width: 100px;
@@ -279,26 +323,31 @@ li.current.active a{
     margin-bottom: 30px;
     cursor: default;
 }
+
 .widgets-area h3 {
     margin-top: 0;
     margin-bottom: 14px;
     color: #2d3950;
     font-size: 22px;
 }
+
 .widgets-area p {
     font-size: 15px;
     color: #999999;
     line-height: 22px;
 }
+
 .widget-img div {
     font-size: 70px;
     line-height: 100px;
     margin-left: 20px;
 }
+
 .widget-img div.fa.fa-paper-plane {
     font-size: 40px;
     text-align: center;
 }
+
 .widget-img div.fa.fa-bullhorn {
     font-size: 42px;
 }
@@ -306,9 +355,11 @@ li.current.active a{
 .widgets-area1 .widget-img{
     transition: 2.5s;
 }
+
 .widgets-area1 .widget-img:hover{
     transform:rotateY(360deg);
 }
+
 .widgets-area1 {
     padding-top: 65px;
     padding-bottom: 53px;
@@ -324,12 +375,20 @@ li.current.active a{
     color: #15A4FA;
     font-size: 22px;
 }
+
 .widgets-area1 p {
     font-size: 15px;
     color: #999999;
     line-height: 22px;
 }
-/*FOOTER*/
+
+
+
+
+
+/*-----------------*\
+       #FOOTER
+\*-----------------*/
 footer {
     bottom: 0;
     height: 90px;
@@ -337,19 +396,23 @@ footer {
 
      width: 100%;
 }
+
 footer .smi {
     margin-bottom: 0;
 }
+
 .smi li {
     padding-right: 0;
     padding-left: 1px;
 }
+
 footer p {
     color: #999999;
     font-size: 15px;
     line-height: 86px;
     margin-bottom: 0;
 }
+
 .smi li a {
     height: 40px;
     width: 40px;
@@ -361,6 +424,7 @@ footer p {
     margin: 25px 0;
     line-height: 44px;
 }
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -369,43 +433,55 @@ footer p {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.footer{
-    background-color:#F8F8F8;
+
+.footer {
+    background-color: #F8F8F8;
 }
+
 .footer .smi li i:hover{
     color: black;
 }
-.smi li a:hover{
-    background:white;
-    color:black;
+
+.smi li a:hover {
+    background: white;
+    color: black;
 }
 
-/*WHAT WE DO*/
+
+
+
+
+/*-----------------*\
+      #WHAT WE DO
+\*-----------------*/
 .what-we-do h2{
     padding-bottom: 50px;
     text-transform: uppercase;
 }
+
 .what-we-do p {
     font-size: 15px;
     color: #999999;
     line-height: 22px;
     padding-bottom: 50px;
 }
-.what-we-do{
+
+.what-we-do {
     padding-top: 65px;
     padding-bottom: 53px;
     text-align: center;
 }
+
 .what-we-do-img {
     height: 100px;
     width: 100px;
     text-align: center;
     border: 1px solid;
-    /*background: url('http://localhost/joomla/templates/strict/images/widget-bg.jpg');*/
     margin: 0 auto;
     margin-bottom: 30px;
     cursor: pointer;
 }
+
 .what-we-do-img:hover {
     color: white;
     background: #15A4FA;
@@ -413,69 +489,85 @@ footer p {
     margin:none;
     cursor: default;
 }
+
 .what-we-do-img div:hover {
     color: white;
     cursor: default;
     margin: none;
 }
+
 .what-we-do-img div {
     font-size: 40px;
     line-height: 100px;
     /*margin-left: 20px;*/
     color: black;
 }
-.what-we-do-img div.fa.fa-windows{
+
+.what-we-do-img div.fa.fa-windows {
     font-size: 40px;
     text-align: center;
     height: 100px;
     width: 100px;
 }
+
 .what-we-do-img div.fa.fa-gears {
     font-size: 40px;
     text-align: center;
     height: 100px;
     width: 100px;
 }
+
 .what-we-do-img div.fa.fa-heartbeat {
     height: 100px;
     width: 100px;
     font-size: 42px;
     text-align: center;
 }
+
 .what-we-do-img div.fa.fa-joomla {
     height: 100px;
     width: 100px;
     font-size: 42px;
     text-align: center;
 }
+
 .what-we-do-img div.fa.fa-ambulance {
     height: 100px;
     width: 100px;
     font-size: 42px;
     text-align: center;
 }
+
 .what-we-do-img div.fa.fa-folder {
     height: 100px;
     width: 100px;
     font-size: 42px;
     text-align: center;
 }
-/*SHOWCASE AREA*/
 
+
+
+
+
+/*-----------------*\
+    #SHOWCASE AREA
+\*-----------------*/
 #showcase-area1 {
-    /*background-color:#2B364A;*/
     padding-top: 73px;
     padding-bottom: 86px;
     text-align: center;
 }
-#showcase-area1 h2 p{
+
+#showcase-area1 h2 p {
   text-align: center;
 }
+
 #showcase-area1 h2 {
     color: #2D3950;
     font-size: 40px;
     margin: 0;
 }
+
 #showcase-area1 p, .contact-us-area p {
     text-align: center;
     margin-top: 16px;
@@ -484,6 +576,7 @@ footer p {
     margin-bottom: 50px;
     color: #999999;
 }
+
 #showcase-area1 .submit-btn {
     background: none;
     border: 1px solid #15a4fa;
@@ -494,6 +587,7 @@ footer p {
     font-size: 18px;
     color: #2D3950;
 }
+
 #showcase-area1 .submit-btn:hover {
     border: none;
     background:  #15a4fa !important;
@@ -501,19 +595,21 @@ footer p {
 }
 
 .showcase-area {
-    /*background-color: #f6f9f9;*/
     padding-top: 73px;
     padding-bottom: 86px;
     text-align: center;
 }
-.showcase-area h2 p{
+
+.showcase-area h2 p {
   text-align: center;
 }
+
 .showcase-area h2 {
     color: #2d3950;
     font-size: 40px;
     margin: 0;
 }
+
 .showcase-area p, .contact-us-area p {
     text-align: center;
     margin-top: 16px;
@@ -522,6 +618,7 @@ footer p {
     margin-bottom: 50px;
     color: #999999;
 }
+
 .showcase-area figure {
     cursor: pointer;
     overflow: hidden;
@@ -531,6 +628,7 @@ footer p {
     margin-right: auto;
     margin-bottom: 30px;
 }
+
 .showcase-area figcaption {
     position: absolute;
     height: 100%;
@@ -540,6 +638,7 @@ footer p {
     left: 0;
     opacity: 0;
 }
+
 .showcase-area .submit-btn {
     background: none;
     border: 1px solid #2D3950;
@@ -549,43 +648,55 @@ footer p {
     height: 47px;
     font-size: 18px;
 }
+
 .showcase-area .submit-btn:hover {
     border: none;
     background: #2D3950 !important;
     color: #fff !important;
 }
-/*CONTACT US*/
+
+
+
+
+
+/*-----------------*\
+     #CONTACT US
+\*-----------------*/
 #contact-us {
-    /*background: url('http://localhost/joomla/templates/strict/images/cover-footer.jpg') no-repeat center;*/
     background-size: cover;
     min-height: 700px;
     padding: 67px 0;
     text-align: center;
 }
+
 #contact-us h2 {
     font-size: 40px;
     /*color: #fff;*/
     margin: 0;
 }
+
 #contact-us p {
     margin-bottom: 47px;
 }
+
 .contact-us-form {
     max-width: 555px;
     margin: 0 auto;
 }
+
 .form-group {
     margin-bottom: 20px;
 }
+
 .contact-us-form .form-control {
     background: none;
     border: 1px solid #999999;
     font-size: 15px;
-    /*color: #fff;*/
     border-radius: 3px;
     min-height: 62px;
     padding: 20px;
 }
+
 #contact-us p {
     text-align: center;
     margin-top: 16px;
@@ -594,19 +705,21 @@ footer p {
     margin-bottom: 77px;
     color: #999999;
 }
+
 .checkbox {
     display: inline-block;
     float: left;
     cursor: pointer;
     font-size: 15px;
-    /*color: #fff;*/
     margin-top: 12px;
     vertical-align: middle;
     cursor: pointer;
 }
+
 .checkbox label {
     vertical-align: top;
 }
+
 #contact-us .submit-btn {
     background: none;
     border: 1px solid #15a4fa;
@@ -615,15 +728,21 @@ footer p {
     width: 142px;
     height: 47px;
     font-size: 18px;
-    /*color: white;*/
 }
+
 .submit-btn:hover {
     border: none;
     background: #15a4fa !important;
     color: #fff !important;
 }
 
-/*CONTACT*/
+
+
+
+
+/*-----------------*\
+       #CONTACT
+\*-----------------*/
 #contact {
     background-color: #263645;
     background-image: url('http://timteeling.com/dev/img/network.svg'), radial-gradient(200px 500px at center, #ff8300 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0));
@@ -632,26 +751,26 @@ footer p {
     animation: move 5s linear infinite;
     /* Extra Styles */
     height: 300px;
-    /*box-shadow: inset 0 0 25px rgba(0,0,0,.5);*/
     border: 2px solid #263645;
     border-right: 0;
     border-left: 0;
-    /*background: url('http://localhost/joomla/templates/strict/images/cover-footer.jpg') no-repeat center fixed;*/
-    /*background-size: cover;*/
     min-height: 358px;
     padding: 67px 0;
     text-align: center;
 }
+
 #contact h2 {
     font-size: 40px;
     color: #fff;
     margin: 0;
     margin-bottom: 25px;
 }
+
 #contact p {
     margin-top: 15px;
     color: #fff;
 }
+
 #contact .submit-btn {
     background: none;
     border: 1px solid #15a4fa;
@@ -662,6 +781,7 @@ footer p {
     font-size: 18px;
     color: white;
 }
+
 .submit-btn:hover {
     border: none;
     background: #15a4fa !important;
