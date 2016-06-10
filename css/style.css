@@ -167,14 +167,14 @@ li.current.active a{
      margin-top: 35px;
 }*/
 /*COVER*/
-#cover {
+.cover {
     min-height: 800px;
     background: url('http://localhost/joomla/templates/strict/images/cover.jpg') center;
     background-size: cover;
     -webkit-background-size: cover;
     text-align: center;
 }
-#cover h1 {
+.cover h1 {
     font-size: 120px;
     font-family: 'Lato';
     color: #ffffff;
@@ -186,16 +186,16 @@ li.current.active a{
     display: inline-block;
     text-transform: uppercase;
 }
-#cover p {
+.cover p {
     color: #fff;
     font-size: 20px;
     margin-top: 22px;
     margin-bottom: 60px;
 }
-#cover .btn-call-to-action:hover {
+.cover .btn-call-to-action:hover {
     background-color: #15a4fa;
 }
-#cover .btn-call-to-action {
+.cover .btn-call-to-action {
     border-radius: 4px;
     border-color: #15a4fa;
     background: none;
@@ -203,7 +203,7 @@ li.current.active a{
     color: #fff;
     font-size: 18px;
 }
-#cover .bottom-arrow {
+.cover .bottom-arrow {
     margin-top: 158px;
     display: block;
 }
@@ -263,7 +263,7 @@ li.current.active a{
     text-align: center;
 }
 /*WIDGETS AREA*/
-#widgets-area {
+.widgets-area {
     padding-top: 65px;
     padding-bottom: 53px;
     text-align: center;
@@ -279,13 +279,13 @@ li.current.active a{
     margin-bottom: 30px;
     cursor: default;
 }
-#widgets-area h3 {
+.widgets-area h3 {
     margin-top: 0;
     margin-bottom: 14px;
     color: #2d3950;
     font-size: 22px;
 }
-#widgets-area p {
+.widgets-area p {
     font-size: 15px;
     color: #999999;
     line-height: 22px;
@@ -303,13 +303,13 @@ li.current.active a{
     font-size: 42px;
 }
 
-#widgets-area1 .widget-img{
+.widgets-area1 .widget-img{
     transition: 2.5s;
 }
-#widgets-area1 .widget-img:hover{
+.widgets-area1 .widget-img:hover{
     transform:rotateY(360deg);
 }
-#widgets-area1 {
+.widgets-area1 {
     padding-top: 65px;
     padding-bottom: 53px;
     text-align: center;
@@ -318,13 +318,13 @@ li.current.active a{
     background-size: cover;
 }
 
-#widgets-area1 h3 {
+.widgets-area1 h3 {
     margin-top: 0;
     margin-bottom: 14px;
     color: #15A4FA;
     font-size: 22px;
 }
-#widgets-area1 p {
+.widgets-area1 p {
     font-size: 15px;
     color: #999999;
     line-height: 22px;
@@ -460,45 +460,6 @@ footer p {
     font-size: 42px;
     text-align: center;
 }
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
-
-   
-/* --------------------------------------
-   Carousel
-   -------------------------------------- */
-   #testimonials #myCarousel{
-      height: 609px;
-   }
-   .carousel-caption {
-       font-size: 24px;
-       color: #2d3254;
-   }
-   .carousel-caption h4 {
-       font-size: 32px;
-       color: #2d3254;
-   }
-   #myCarousel .item {height: 600px;}
-
-#slide1 {
-   background: url('../../images/c1.jpg') top center no-repeat;
-}
-
-#slide2 {
-   background: url('../../images/c2.jpg') top center no-repeat;
-}
-
-#slide3 {
-   background: url('../../images/c3.jpg') top center no-repeat;
-}
 /*SHOWCASE AREA*/
 
 #showcase-area1 {
@@ -539,21 +500,21 @@ footer p {
     color: #fff !important;
 }
 
-#showcase-area {
+.showcase-area {
     /*background-color: #f6f9f9;*/
     padding-top: 73px;
     padding-bottom: 86px;
     text-align: center;
 }
-#showcase-area h2 p{
+.showcase-area h2 p{
   text-align: center;
 }
-#showcase-area h2 {
+.showcase-area h2 {
     color: #2d3950;
     font-size: 40px;
     margin: 0;
 }
-#showcase-area p, .contact-us-area p {
+.showcase-area p, .contact-us-area p {
     text-align: center;
     margin-top: 16px;
     line-height: 23px;
@@ -561,7 +522,7 @@ footer p {
     margin-bottom: 50px;
     color: #999999;
 }
-#showcase-area figure {
+.showcase-area figure {
     cursor: pointer;
     overflow: hidden;
     position: relative;
@@ -570,7 +531,7 @@ footer p {
     margin-right: auto;
     margin-bottom: 30px;
 }
-#showcase-area figcaption {
+.showcase-area figcaption {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -579,7 +540,7 @@ footer p {
     left: 0;
     opacity: 0;
 }
-#showcase-area .submit-btn {
+.showcase-area .submit-btn {
     background: none;
     border: 1px solid #2D3950;
     display: inline-block;
@@ -588,7 +549,7 @@ footer p {
     height: 47px;
     font-size: 18px;
 }
-#showcase-area .submit-btn:hover {
+.showcase-area .submit-btn:hover {
     border: none;
     background: #2D3950 !important;
     color: #fff !important;
@@ -706,6 +667,45 @@ footer p {
     background: #15a4fa !important;
     color: #fff !important;
 }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #testimonials #myCarousel{
+      height: 609px;
+   }
+   .carousel-caption {
+       font-size: 24px;
+       color: #2d3254;
+   }
+   .carousel-caption h4 {
+       font-size: 32px;
+       color: #2d3254;
+   }
+   #myCarousel .item {height: 600px;}
+
+#slide1 {
+   background: url('../../images/c1.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/c2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/c3.jpg') top center no-repeat;
+}
+
 /* --------------------------------------
    Global Styles
    -------------------------------------- */
