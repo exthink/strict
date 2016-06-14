@@ -1,6 +1,9 @@
 /*--------------*\
       #GLOBAL
 \*--------------*/
+.navbar-toggle{
+    margin-top: 20px;
+}
 .team-bg {
     padding-top: 50px; 
 }
@@ -59,13 +62,7 @@ h2.sprocket-mosaic-g-title {
     margin-bottom: 75px;
 }
 
-.is-sticky #mystickydiv .navbar-brand {
-    margin-top: 0;
-}
 
-.is-sticky #mystickydiv .header .menu {
-    margin-top: 5.5px;
-}
 
 .is-sticky #mystickydiv .navbar-default {
     background-color: #636B78;
@@ -74,7 +71,6 @@ h2.sprocket-mosaic-g-title {
 
 .is-sticky #mystickydiv .navbar {
     background-color: red;
-    min-height: 65px;
 }
 #mystickydiv .header .navbar-default {
     background-color: #f8f8f8;
@@ -138,11 +134,7 @@ li.current.active a {
     text-align: left;
 }
 
-.menu li {
-    display: inline;
-    float:left;
-    font-family: sans-serif;
-}
+
 
 .header .menu {
     color: #2e3851;
@@ -151,9 +143,9 @@ li.current.active a {
     margin-top: 13px;
 }
 
-.header .menu li {
+/*.header .menu li {
     display: inline;
-}
+}*/
 
 .header .navbar {
     min-height: 100px;
@@ -838,11 +830,15 @@ footer p {
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-    
+    #mystickydiv .header .navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 728px) {
+
     .form-horizontal .control-label {
     text-align: left;
 }
@@ -868,6 +864,11 @@ footer p {
 
 /* Large desktop */
 @media (min-width: 1200px) {
+    .menu li {
+    /*display: inline;*/
+    float:left;
+    /*font-family: sans-serif;*/
+}
     .form-horizontal .control-label {
     text-align: left;
 }

@@ -21,24 +21,28 @@ $doc->addStyleSheet($this->baseurl . '/templates/' . $this->template . '/bootstr
 
 <body>
     <jdoc:include type="modules" name="position-10" style="none" />
-    <div id="main_wrapper">
-        <div id="mystickydiv">
+    <!-- <div id="main_wrapper">
+        <div id="mystickydiv"> -->
     <section class="header">
-
-        <div class="navbar navbar-default" role="navigation">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="navbar-header icon">
                         <jdoc:include type="modules" name="position-3" style="none" />
                 </div>
-                
-                <div class="nav-collapse collapse navbar-responsive-collapse">
-                    <div class="container">
-                    <div class="menu pull-right" >
-                        <jdoc:include type="modules" name="position-1" style="none" />
+                  
+                        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <div class="nav-collapse collapse navbar-responsive-collapse nav navbar-nav menu pull-right">
+                            <div class="container">
+                            <!-- <div class="nav navbar-nav menu pull-right " > -->
+                                <jdoc:include type="modules" name="position-1" style="none" />
+                            <!-- </div> -->
+                        </div>
                     </div>
-                </div>
-               
-                </div>
             </div>
         </div>
     </section>
