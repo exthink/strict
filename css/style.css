@@ -1,6 +1,13 @@
 /*--------------*\
       #GLOBAL
 \*--------------*/
+.sprocket-mosaic-g-title a{
+    color: #fff;
+}
+.sprocket-mosaic-g-title a:hover{
+    color: #15A4FA;
+    text-decoration: none;
+}
 .navbar-toggle{
     margin-top: 20px;
 }
