@@ -73,7 +73,7 @@ h2.sprocket-mosaic-g-title {
 
 .is-sticky #mystickydiv .navbar-default {
     background-color: #636B78;
-    height: 20px;
+    /*height: 20px;*/
 }
 
 .is-sticky #mystickydiv .navbar {
@@ -129,6 +129,7 @@ a {
 .header .menu li a {
     font-weight: bold;
     font-size: 16px;
+    font-family: 'Lato', sans-serif;
 }
 li.current.active a {
     color: #2D3950;
@@ -199,7 +200,7 @@ li.current.active a {
 
 .cover h1 {
     font-size: 120px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #ffffff;
     margin-top: 193px;
     font-weight: bold;
@@ -228,6 +229,7 @@ li.current.active a {
     padding: 15px 35px;
     color: #fff;
     font-size: 18px;
+    transition: 1.5s;
 }
 
 .cover .bottom-arrow {
@@ -587,6 +589,7 @@ footer p {
     height: 47px;
     font-size: 18px;
     color: #2D3950;
+    transition: 1.5s;
 }
 
 #showcase-area1 .submit-btn:hover {
@@ -781,11 +784,12 @@ footer p {
     height: 47px;
     font-size: 18px;
     color: white;
+    transition: 1.5s;
 }
 
 .submit-btn:hover {
     border: none;
-    background: #15a4fa !important;
+    background: #263645 !important;
     color: #fff !important;
 }
 /* --------------------------------------
@@ -843,11 +847,50 @@ footer p {
     background-color: #f8f8f8;
     border-color: #e7e7e7;
 }
+.line {
+    width: 400px;
+    height: 3px;
+    background: #15A4FA;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+.cover h1 {
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin-top: 193px;
+    font-weight: bold;
+    padding: 0px 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #15a4fa;
+    display: inline-block;
+    text-transform: uppercase;
+}
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 728px) {
-
+    .line {
+    width: 400px;
+    height: 3px;
+    background: #15A4FA;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+.cover h1 {
+    font-size: 70px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin-top: 193px;
+    font-weight: bold;
+    padding: 0px 50px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #15a4fa;
+    display: inline-block;
+    text-transform: uppercase;
+}
     .form-horizontal .control-label {
     text-align: left;
 }
