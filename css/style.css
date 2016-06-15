@@ -20,7 +20,7 @@ html,body {
   /* Extra Styles */
   background: #fff;
   color: #425363;
-  font-family: avenir, 'segoe ui', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 @keyframes move {
@@ -108,7 +108,7 @@ body {
 }
 
 a {
-    color: #428bca;
+    color: #777;
     text-decoration: none;
 }
 
@@ -119,15 +119,17 @@ a {
 /*--------------*\
       #HEADER
 \*--------------*/
+.header .menu li a {
+    font-weight: bold;
+    font-size: 16px;
+}
 li.current.active a {
     color: #2D3950;
-    border-bottom: 1px solid #15A4FA;
 }
 
 .header .menu li a:hover {
     background:none;
     color: #2D3950;
-    border-bottom: 1px solid #15A4FA;
 }
 
 .form-horizontal .control-label {
